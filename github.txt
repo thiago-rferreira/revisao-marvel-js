@@ -1,0 +1,6 @@
+Como eu faço para subir no github?
+1. Crie um repositório no GitHub.
+2. No terminal, inicie um repositório Git no diretório do seu projeto:
+ git init
+3. Adicione os arquivos ao repositório:
+ git add .
