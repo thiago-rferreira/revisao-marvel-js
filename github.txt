@@ -1,6 +1,24 @@
-Como eu faço para subir no github?
+Como eu faço para subir no github pela primeira vez?
 1. Crie um repositório no GitHub.
 2. No terminal, inicie um repositório Git no diretório do seu projeto:
  git init
 3. Adicione os arquivos ao repositório:
  git add .
+4. Faça um commit inicial:
+    git commit -m "Initial commit"
+5. Adicione o repositório remoto:
+    git remote add origin https://github.com/thiago-rferreira/revisao-marvel-js.git
+6. Troque a branch padrão para main:
+    git branch -M main
+7. Faça o push para o repositório remoto:
+    git push -u origin main
+
+Vamos verificar lá no GitHub se tudo está certo.
+
+Agora com os novos arquivos
+1. Adicione os arquivos ao repositório:
+ git add .
+2. Faça um commit:
+    git commit -m "Adicionando novos arquivos"
+3. Faça o push para o repositório remoto:
+    git push
